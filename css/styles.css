@@ -1,9 +1,12 @@
+/* * {
+  margin: 0 0 15px 0;
+} */
 body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  height: 18px;
   color: #0a0a0a;
+  margin: 0;
 }
 a {
   color: inherit;
@@ -14,6 +17,7 @@ a {
   color: #717171;
   padding: 33px 0 32px;
   font-size: 24px;
+  width: 100%;
 }
 .container-header {
   max-width: 1200px;
@@ -111,8 +115,7 @@ p {
 .new-text {
   width: 560px;
 }
-.new {
-}
+
 b {
   display: block;
   max-width: 560px;
@@ -186,7 +189,7 @@ input {
   border-bottom: 1px solid white;
 }
 .form-button {
-  color: #490e84;
+  color: rgb(73, 14, 132);
   font-size: 18px;
   font-weight: 700;
   width: fit-content;
@@ -209,6 +212,7 @@ input::placeholder {
 }
 .footer {
   background-color: #0a0a0a;
+  width: 100%;
 
   /* justify-content: center; */
 }
@@ -235,4 +239,48 @@ input::placeholder {
 .politik {
   font-size: 18px;
   opacity: 0.7;
+}
+/* ----------DOM---------- */
+
+/* .red {
+  border: red;
+  border-style: solid;
+  border-width: 13px;
+} */
+.count-wrapper {
+  text-align: center;
+}
+.count {
+  color: #76529c;
+  filter: drop-shadow(0 0 3px rgba(80, 249, 133, 1));
+  font-size: 50px;
+}
+.count-container {
+  margin: 100px;
+}
+
+/* ---------------TIMER---------------*/
+
+.timer-wrapper {
+  text-align: center;
+  background-color: #574b63;
+  font-size: 24px;
+  color: antiquewhite;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  box-shadow: 0px 0px 1.5px 1.5px rgb(100, 81, 121);
+  width: 100%;
+  font-weight: 600;
+}
+.five {
+  font-size: 24px;
+  color: #ffffff;
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+}
+.timer {
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 5px;
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
