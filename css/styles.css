@@ -264,23 +264,27 @@ input::placeholder {
 .timer-wrapper {
   text-align: center;
   background-color: #574b63;
-  font-size: 24px;
-  color: antiquewhite;
+  font-size: 30px;
+  color: #baa7a7;
   position: sticky;
   top: 0;
   z-index: 11;
   box-shadow: 0px 0px 1.5px 1.5px rgb(100, 81, 121);
   width: 100%;
   font-weight: 600;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .five {
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 30px;
+  color: antiquewhite;
   filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 .timer {
-  color: #ffffff;
-  font-size: 24px;
+  color: antiquewhite;
+  font-size: 30px;
   margin-left: 5px;
   filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
